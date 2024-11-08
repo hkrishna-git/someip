@@ -1,0 +1,15 @@
+package commonapi.examples
+
+interface Attributes {
+    version {major 1 minor 0}
+    attribute Int32 test
+
+    method dojob {
+        in {
+            Int16 input
+        }
+        out {
+            String msg
+        }
+    }
+}
